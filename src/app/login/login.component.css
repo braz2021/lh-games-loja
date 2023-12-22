@@ -1,6 +1,7 @@
+
 .example-spacer {
     flex: 1 1 auto;
-}
+} 
 
 main {
     display: flex;
@@ -10,23 +11,44 @@ main {
 }
 
 #section-login {
-    height: 100%;
+    background-color: #FFFFFF;
+    height: 50%;
     width: 400px;
     border-radius: 10px;
-    border: 2px solid black;
-    padding: 10px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px
+}
+input {
+    height: 40px; /* Altura desejada */
+    width: 100%; /* Largura total do contêiner pai */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-span {
-    padding: 5px 5px;
+button {
+    height: 40px; /* Altura desejada */
+    width: 100%; /* Largura total do contêiner pai */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(95, 95, 95);
 }
 
 img {
     height: 50px;
     width: 50px;
-}
+} 
